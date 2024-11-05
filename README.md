@@ -7,6 +7,15 @@ This repository contains the code for the CAIRE assignment. The code is written 
 The overall architecture of the code is as follows:
 ![Architecture](./resources/caireflow.jpg)
 
+## Features Used
+
+* CJWR is the ratio of the cheekbone width to jaw width.
+* WHR is the ratio of the cheekbone width to upper facial height
+* ES is the average size of eyes
+* LF/FH is the lower face to face height ratio
+* FW/LFH is the face width to the lower face height ratio.
+
+## Steps
 The following steps were followed:
 * Image Alignment: The images were aligned using the facial landmarks. This was done using the `face_alignment` library.
 * Landmark Extraction: The facial landmarks were extracted using the `face_alignment` library.
